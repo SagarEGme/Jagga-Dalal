@@ -64,6 +64,7 @@ function Signup() {
         />
         <button
           disabled={loading}
+          type="submit"
           className="bg-slate-700 text-white p-3 rounded-lg uppercase hover:opacity-95"
         >
           {loading ? "Loading..." : "Sign Up"}
